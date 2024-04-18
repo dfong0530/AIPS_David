@@ -6,19 +6,7 @@ import csv
 
 
 
-
-# Open the text file and read the usernames into a list
-# with open('extra.txt', 'r') as file:
-#     usernames = [username.strip() for username in file.readlines()]
-
-# # Open a new CSV file to write usernames into, each on a new line
-# with open('extra.csv', 'w') as file:
-#     for username in usernames:
-#         # Write each username followed by a comma and a newline character
-#         file.write(f"{username},")
-
-
-
+#This page has code that are helper function to modify txt files that stores instagram usernames
 
 
 #Take out users that you seen before

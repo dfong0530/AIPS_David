@@ -1,4 +1,6 @@
 
+#Check if product is expensive and worth buying
+
 def is_exp_product(msg, lower_bound):
 
     lines = msg.split("\n")

@@ -1,6 +1,7 @@
 import asyncio
 from pyppeteer import launch
 
+#Function to login to instagram. Username and password removed.
 
 async def login(page, username, password):
 
@@ -24,7 +25,7 @@ async def login(page, username, password):
     await page.click(submit_button_selector)
 
 
-
+#Functionality to navigate to user instagram page, direct message
 
 async def send_message(page, username, msg):
 
@@ -100,7 +101,7 @@ async def read_usernames(old, new):
     return ret
 
 
-
+#Logins, reads in file with usernames and sends dm's
 
 async def main():
 

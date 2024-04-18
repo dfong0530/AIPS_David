@@ -9,7 +9,7 @@ load_dotenv()
 senderEmail = os.getenv('senderEmail')
 appKey = os.getenv('appKey')
 
-
+#Sends text message
 def send_message(gatewayAddress, message):
 
     # Send Text

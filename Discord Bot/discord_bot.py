@@ -18,6 +18,9 @@ intents.messages = True
 
 client = discord.Client(intents=intents)
 
+
+#Discord bot that listens for messages and if the product is worth buying sends us a text message.
+
 @client.event
 async def on_message(message):
 
