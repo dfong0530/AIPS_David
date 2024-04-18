@@ -1,4 +1,4 @@
-# AIPS_DAvid
+# AIPS_DAVID
 
 
 
@@ -13,8 +13,10 @@ The Amazon deals we find are posted on discord, I worked on a bot to monitor the
 when it finds products with a value greater than the minimum threshold it sends us a text message.
 
 
-I also, created a bot with py-pupeteer to message a list of usernames through direct message to market to peoopel about proudcts we found.
+We also, find various websites that give coupons, we used pupeteer to gather coupons in the /coupons_generator.
 
 
+I also, created a bot with py-puputeer to message a list of usernames through direct message to market to people about products we found.
 
-This code is compiled from another folder and modified to remove private information.
+
+This code is from various other folders and modified to remove private information.

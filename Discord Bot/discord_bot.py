@@ -46,4 +46,6 @@ async def on_message(message):
         text_message = f"Product Price: {product_price}\n\n" + product
         send_message(gatewayAddress, text_message)
 
+
+
 client.run(bot_token)
